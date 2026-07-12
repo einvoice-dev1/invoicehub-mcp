@@ -1,0 +1,20 @@
+{
+  "name": "invoicehub",
+  "displayName": "InvoiceHub — EU e-invoice validation & generation",
+  "description": "Validate UBL 2.1 invoices against the official EN 16931 Schematron and generate conformant EU e-invoices, directly from your agent. No install, no API key — the catalog is public and every tool is safe to call.",
+  "version": "1.0.0",
+  "author": {
+    "name": "InvoiceHub",
+    "url": "https://invoicehub.dev"
+  },
+  "homepage": "https://invoicehub.dev",
+  "repository": "https://github.com/einvoice-dev1/invoicehub-mcp",
+  "license": "MIT",
+  "keywords": ["mcp", "invoicing", "e-invoice", "en16931", "ubl", "eu-compliance"],
+  "mcpServers": {
+    "invoicehub": {
+      "type": "http",
+      "url": "https://api.invoicehub.dev/mcp"
+    }
+  }
+}

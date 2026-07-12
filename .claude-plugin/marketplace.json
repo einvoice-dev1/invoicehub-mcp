@@ -1,0 +1,20 @@
+{
+  "name": "invoicehub",
+  "owner": {
+    "name": "InvoiceHub",
+    "url": "https://invoicehub.dev"
+  },
+  "metadata": {
+    "description": "Official InvoiceHub plugin marketplace — EU e-invoice validation and generation for AI agents.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "invoicehub",
+      "source": "./",
+      "description": "Validate UBL 2.1 invoices against the official EN 16931 Schematron and generate conformant EU e-invoices from inside any MCP client. No install, no API key.",
+      "category": "developer-tools",
+      "keywords": ["mcp", "invoicing", "e-invoice", "en16931", "ubl", "eu-compliance"]
+    }
+  ]
+}
