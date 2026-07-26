@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "invoicehub": {
+      "type": "http",
+      "url": "https://api.invoicehub.dev/mcp"
+    }
+  }
+}
